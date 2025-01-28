@@ -50,4 +50,9 @@ public class Case {
     public void setDimension(Dimension dimension) {
         this.dimension = dimension;
     }
+// public Case(String manufacture, int numberFans, String casetype, Dimension dimension) {
+public String toString(){
+   return "Manufacturer: " + manufacture + "\nNumber of Fans: " + numberFans + "\nCase Type: " + casetype + "\nDimension: " + 
+dimension + "\n"; 
+}
 }
