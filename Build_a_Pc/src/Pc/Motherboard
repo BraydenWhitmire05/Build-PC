@@ -36,4 +36,6 @@ public class Motherboard {
   public void setSocketType(String socketType) {
       this.socketType = socketType;
   }
+
+//create toString method
 }
