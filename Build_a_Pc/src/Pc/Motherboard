@@ -37,5 +37,7 @@ public class Motherboard {
       this.socketType = socketType;
   }
 
-//create toString method
+public String toString(){
+   return "BrandName: " + brandName + "\nDimension of MotherBoard: " + dMotherboard + "\nSocket Type: " + socketType + "\n"; 
+}
 }
