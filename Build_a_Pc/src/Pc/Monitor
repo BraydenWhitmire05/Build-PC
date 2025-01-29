@@ -53,6 +53,9 @@ public class Monitor {
         this.screenSize = screenSize;
     }
 
-//create toString method. 
+public String toString(){
+   return "BrandName: " + brandName + "\nModel: " + model + "\nResolution: " + resolution + "\nScreen Size: " + 
+screenSize + "\n"; 
+} 
 
 }
