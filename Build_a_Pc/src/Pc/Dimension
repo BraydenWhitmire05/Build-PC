@@ -48,6 +48,7 @@ public class Dimension {
         else {
             return width + " x " + height + " x " + depth;
         }
-    }
-
+public String toString(){
+   return "Height: " + height + "\nDepth: " + depth + "\nWidth: " + width + "\n"; 
+}
 }
